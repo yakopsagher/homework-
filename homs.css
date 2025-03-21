@@ -1,0 +1,34 @@
+.HOMS[Attributesstyle]
+ .HOMS:path("M 468,592,643,484,573,378,570,354,561,341,571,313,506,294,471,300,465,319,459,331,447,343,433,360,420,339,406,332,383,337,368,353,336,364,319,348,282,356,271,347,263,353,253,357,237,391,268,395,260,408,275,420,288,450,297,450,298,456,314,450,341,478,357,484,379,510,395,529,402,541,420,553,444,570 Z")
+
+ fill:ruby-align::after
+ fill-opacity::marker
+ stroke::marker
+ cursor::after pointer
+
+
+
+.HOMS{
+
+  height: 600px;
+  width:500px ;
+  padding: 0;
+  margin: 0%;
+    background-color: black;
+    background-image: url(../image/d.jpg);
+    background-size: contain;  /* ما بيتغير حجم الصورة*/
+    background-repeat: no-repeat;
+
+}
+div:hover{     /*  اذا لمسناالصورة تطلع صورة تانية */
+    background-image: url(../image/d.jpg);
+    background-repeat: no-repeat;
+}
+div:active{  /*اذا كبسنا عالصورة تطلع صورة تانية*/
+    background-color: blue;
+
+}
+  /* visited link */
+  area:visited {
+    color: green;
+  }
